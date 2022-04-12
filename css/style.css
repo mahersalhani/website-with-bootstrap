@@ -109,6 +109,7 @@ body {
 .portfolio .box {
   padding: 5px;
   transition: 0.3s;
+  cursor: pointer;
 }
 .portfolio .box::before {
   content: attr(data-work);
